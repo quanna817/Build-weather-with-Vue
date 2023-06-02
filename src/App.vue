@@ -50,7 +50,7 @@ export default {
     },
     dataBuilder () {
       let d = new Date();
-      let months = ["January", "february", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+      let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
       let days = ["Monday", "Tuesday", "Wesnesday", "Thursday", "Friday", "Saturday", "Sunday"];
       let day = days[d.getDay()];
       let date = d.getDate();
